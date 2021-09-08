@@ -1,0 +1,22 @@
+
+#dblg{
+  font-weight: bold;
+  color: #07a6f0;
+ 
+}
+html,body{
+  height: 100%;
+}
+#flg{
+  font-family: 'cursive';
+  font-weight: bold;
+  padding-left: 7px;
+}
+.element { overflow: -moz-scrollbars-none; }
+  body::-webkit-scrollbar { width: 0 !important } 
+  body { -ms-overflow-style: none; }  /* Hide scrollbars */
+  @media only screen and (max-width: 760px) {
+    .img_hide {
+     display: none;    }
+  }
+  
